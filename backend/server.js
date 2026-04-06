@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // CONNECT MONGODB
-mongoose.connect("mongodb+srv://admin:admin123@cluster0.9rvkz3a.mongodb.net/itfiesta?retryWrites=true&w=majority")
+mongoose.connect("--YOUR MONGODB URL--")
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.log("MongoDB Error:", err));
 
